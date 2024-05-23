@@ -1,0 +1,29 @@
+<Configuration>
+    <vGPU>Default</vGPU>
+
+    <Networking>Default</Networking>
+
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\Users\Ganesh Kakade\Windows Sandbox\Sandbox Scripts</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Windows Sandbox\Sandbox Scripts</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+
+    <LogonCommand>
+        <Command>powershell.exe -ExecutionPolicy Bypass -File "C:\Users\WDAGUtilityAccount\Windows Sandbox\Sandbox Scripts\Sandbox.ps1"</Command>
+    </LogonCommand>
+
+    <AudioInput>Default</AudioInput>
+
+    <VideoInput>Default</VideoInput>
+
+    <ProtectedClient>Default</ProtectedClient>
+
+    <PrinterRedirection>Default</PrinterRedirection>
+
+    <ClipboardRedirection>Default</ClipboardRedirection>
+
+    <MemoryInMB></MemoryInMB>
+</Configuration>
